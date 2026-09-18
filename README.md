@@ -94,6 +94,11 @@ Special characters in filenames can prevent the algorithm from matching them. To
    python files/window.py
    ```
 
+   On macOS, run the native entry point instead:
+   ```
+   python files/mac.py
+   ```
+
 ---
 
 ## Contributors ✒️
