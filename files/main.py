@@ -180,7 +180,7 @@ def mainProcess(browserPath, window, editedW, exiftoolPath=None):
             ext = title.rsplit('.', 1)[1].casefold() if '.' in title else ""
 
 
-            # Set metadatas fot live photos
+            # Set metadata for Live Photos
             paired_video_path = None
             paired_video_title = None
             if ext in {"heic", "heif", "jpg", "jpeg"}:
